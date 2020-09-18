@@ -1,0 +1,185 @@
+/* GENERAL STYLE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  font-size: 16px;
+}
+/* UTILITIES */
+
+/* Layout */
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.col-3 {
+  float: left;
+  width: calc(100 / 3);
+  padding: 0 20px;
+}
+
+.float-left {
+  float: left;
+}
+
+/* Menu */
+.menu-inline li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.menu-inline li:first-child {
+  padding-left: 0;
+}
+.menu-inline li:last-child {
+  padding-right: 0;
+}
+
+/* Typography */
+a {
+  color: #5586bc;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 19px;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+
+h2.big {
+  line-height: 1.2;
+  font-size: 36px;
+}
+
+.help-target h2 p {
+  background-color: grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  min-width: 100px;
+  line-height: 23px;
+  padding: 5 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-green {
+  background: #7cbb02;
+  border: none;
+  padding: 5px;
+}
+
+.btn-large {
+  padding: 20px;
+}
+
+/* HEADER */
+.main-header {
+  height: 560px;
+  background: #0c325a;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: right bottom;
+
+}
+
+.header-nav {
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.header-nav .header-logo img {
+  vertical-align: middle;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-nav .header-logo {
+  width: 15%;
+}
+
+.header-nav .header-nav-center {
+  width: 45%;
+}
+
+.header-nav .header-nav-right {
+  width: 40%;
+}
+
+.header-nav .header-nav-right {
+  text-align: right;
+}
+
+/* Text start*/
+.text-start {
+  position: relative;
+  height: 480px;
+}
+.text-start-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.text-start-text h1 {
+  margin-bottom: 30px;
+  font-size: 56px;
+  color: #fff;
+}
+
+/* MAIN */
+
+/* Efficency */
+.efficency {
+  padding: 40px 15px;
+  background-color: #d3d3d3;
+}
+
+.efficency p {
+  font-size: 20px;
+}
