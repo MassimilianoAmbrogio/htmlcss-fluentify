@@ -31,7 +31,7 @@ body {
 
 .col-3 {
   float: left;
-  width: calc(100 / 3);
+  width: calc(100% / 3);
   padding: 0 20px;
 }
 
@@ -69,14 +69,19 @@ h3 {
 
 h2 {
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 26px;
   color: #000;
   text-align: center;
 }
 
 h2.big {
   line-height: 1.2;
-  font-size: 36px;
+  font-size: 40px;
+  text-align: left;
+}
+
+h2.big1 {
+  font-size: 35px;
 }
 
 .help-target h2 p {
@@ -110,8 +115,8 @@ h2.big {
 .btn-green1 {
   background: #7cbb02;
   border: none;
-  margin-left: 70%;
-  padding: 16px;
+  padding: 18px;
+  margin-left: 14%;
 }
 
 .btn-large {
@@ -240,6 +245,10 @@ h2.big {
 .footer-left {
   margin-left: 60%;
   line-height: 70px;
+}
+
+.section {
+  margin-left: 25px;
 }
 
 /* Help */
